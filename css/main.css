@@ -1,0 +1,174 @@
+body{
+    background: #252529;
+    margin: 0;
+}
+
+header {
+    padding: 8em 4em 6em 4em;
+    background-image: url("../img/imagenFondo.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    margin:0;
+    color: #fff;
+    text-align: center;
+}
+header h1 {
+    font-size: 5em;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Passion One', cursive;  
+}
+p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.5em;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif; 
+}
+header a{
+    color: #FFF;
+    display: block;
+}
+header a i:hover{
+    color: #CDCBCB;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 4em 0 2em 0;
+    margin: 0 auto;
+}
+
+.main div{
+    border-radius: 4px;
+    margin: 0 1em 2em 1em;
+    width: 30%;
+    background: #2c2c32;
+    text-align: center;
+}
+
+.main div img{
+    width: 100%;
+}
+
+.main div p{
+    padding: 1.5em;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.75em;
+    margin:0;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: auto 0 0 0;
+}
+
+input[type="button"]{
+    display: block;
+    padding: 0 1.5em;
+    margin: 1em auto;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.button1{
+    background-color: #82cec6;
+}
+.button1:hover{
+    background-color: #a5d0cb;
+}
+.button2{
+    background-color: #92a2d6;
+}
+.button2:hover{
+    background-color: #acb8e1;
+}
+.button3{
+    background-color: #ab91d7;
+}
+.button3:hover{
+    background-color: #c1afe1;
+}
+.button4{
+    background-color: #92a2d6;
+}
+.button4:hover{
+    background-color: #adbbe9;
+}
+.button5{
+    background-color: #ab91d7;
+}
+.button5:hover{
+    background-color: #c1afe1;
+}
+.button6{
+    background-color: #82cec6;
+}
+.button6:hover{
+    background-color: #a4ded8;
+}
+
+footer{
+    padding: 4em 0 2em 0;
+    background-color: #1b1b1f;
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+
+footer p{
+    width: 50%;
+    font-size: 1em;
+    line-height: 1.65;
+    margin: 0 auto 2em;
+}
+
+footer>a{
+    border-radius: 100%;
+    border: solid 1px rgba(144, 144, 144, 0.25);
+    padding: 0.5em;
+    color:  rgba(144, 144, 144, 0.25);
+    font-size: 1.9em;
+    text-decoration: none;
+    margin: 0 1em 1em 0;
+}
+
+footer>a:hover{
+    color: #fff;
+    background-color: #202024;;
+}
+.autor{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin: 0 auto 2em;
+    padding: 0;
+    text-align: center;
+}
+
+.autor>a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-bottom: 2px dotted;
+}
+.autor> a:hover{
+    border: none;
+}
