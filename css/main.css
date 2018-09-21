@@ -1,18 +1,37 @@
 body{
     background: #252529;
     margin: 0;
+    font: inherit;
 }
 
 header {
+    position: relative;
     padding: 8em 4em 6em 4em;
-    background-image: url("../img/imagenFondo.jpg");
     background-size: cover;
     background-position: center;
     justify-content: center;
     margin:0;
     color: #fff;
     text-align: center;
+    overflow: hidden;
 }
+
+header::before{
+    transition: opacity 3s ease;
+    transition-delay: 1s;
+    opacity: 0.45;   
+}
+
+header>p>a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    display: inline;
+}
+header>p>a:hover{
+    border: none;
+}
+
 header h1 {
     font-size: 5em;
     font-weight: 400;
@@ -25,10 +44,29 @@ p {
     font-weight: 200;
     font-family: 'Raleway', sans-serif; 
 }
+
+video{
+    position: absolute;
+    top: -50%;
+    right: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.60;
+}
+
+video::before{
+    transition: opacity 3s ease;
+    transition-delay: 1s;
+    opacity: 0.45;
+}
+
 header a{
     color: #FFF;
     display: block;
 }
+
 header a i:hover{
     color: #CDCBCB;
 }
@@ -37,7 +75,7 @@ header a i:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     padding: 4em 0 2em 0;
     margin: 0 auto;
 }
